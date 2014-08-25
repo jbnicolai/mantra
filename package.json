@@ -7,7 +7,7 @@
     "test": "node_modules/.bin/mocha"
   },
   "bin": {
-    "mantra": "./index.js"
+    "mantra": "./mantra.js"
   },
   "preferGlobal": true,
   "repository": {
