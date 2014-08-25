@@ -1,0 +1,31 @@
+{
+  "name": "mantra",
+  "version": "0.1.0",
+  "description": "Outputs a .mantra.txt that can be used when opening terminal shells",
+  "main": "index.js",
+  "scripts": {
+    "test": "node_modules/.bin/mocha"
+  },
+  "bin": { 
+    "mantra": "./index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/simplyianm/mantra"
+  },
+  "keywords": [
+    "mantra",
+    "selfimprovement",
+    "shell",
+      "cli"],
+  "author": "Ian Macalinao <me@ian.pw>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/simplyianm/mantra/issues"
+  },
+  "dependencies": {},
+  "devDependencies": {
+    "chai": "~1.8.1",
+    "mocha": "~1.17.0"
+  }
+}
