@@ -9,6 +9,7 @@
   "bin": {
     "mantra": "./index.js"
   },
+  "preferGlobal": true,
   "repository": {
     "type": "git",
     "url": "https://github.com/simplyianm/mantra"
@@ -17,7 +18,7 @@
     "mantra",
     "selfimprovement",
     "shell",
-    "cli"
+      "cli"
   ],
   "author": "Ian Macalinao <me@ian.pw>",
   "license": "MIT",
