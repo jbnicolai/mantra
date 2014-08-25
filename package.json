@@ -6,7 +6,7 @@
   "scripts": {
     "test": "node_modules/.bin/mocha"
   },
-  "bin": { 
+  "bin": {
     "mantra": "./index.js"
   },
   "repository": {
@@ -17,13 +17,16 @@
     "mantra",
     "selfimprovement",
     "shell",
-      "cli"],
+    "cli"
+  ],
   "author": "Ian Macalinao <me@ian.pw>",
   "license": "MIT",
   "bugs": {
     "url": "https://github.com/simplyianm/mantra/issues"
   },
-  "dependencies": {},
+  "dependencies": {
+    "chalk": "^0.5.1"
+  },
   "devDependencies": {
     "chai": "~1.8.1",
     "mocha": "~1.17.0"
