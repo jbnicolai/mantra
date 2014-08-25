@@ -14,6 +14,7 @@ fs.readFile(HOME + '/.mantra.txt', function(err, data) {
     console.log(err.toString());
     return;
   }
+  console.log('');
   data.toString().split('\n').filter(function(line) {
     console.log('    ' + line);
   });
